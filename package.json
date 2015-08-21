@@ -40,6 +40,11 @@
     "jest-cli": "^0.4.5",
     "react": "^0.13.3"
   },
+  "files": [
+    "license",
+    "index.js",
+    "lib/"
+  ],
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
     "testPathIgnorePatterns": [
