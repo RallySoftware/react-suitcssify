@@ -28,9 +28,6 @@
     "url": "https://github.com/brentertz/react-suitcssify/issues"
   },
   "homepage": "https://github.com/brentertz/react-suitcssify",
-  "peerDependencies": {
-    "react": "^0.13.0"
-  },
   "devDependencies": {
     "babel": "^5.4.7",
     "babel-eslint": "^3.1.23",
