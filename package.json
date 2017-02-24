@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brentertz/react-suitcssify.git"
+    "url": "https://github.com/RallySoftware/react-suitcssify.git"
   },
   "keywords": [
     "react",
@@ -24,12 +24,12 @@
     "css",
     "BEM"
   ],
-  "author": "Brent Ertz <brent.ertz@gmail.com>",
+  "author": "CA Technologies",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brentertz/react-suitcssify/issues"
+    "url": "https://github.com/RallySoftware/react-suitcssify/issues"
   },
-  "homepage": "https://github.com/brentertz/react-suitcssify",
+  "homepage": "https://github.com/RallySoftware/react-suitcssify",
   "devDependencies": {
     "babel-cli": "6.9.0",
     "babel-core": "6.9.1",
