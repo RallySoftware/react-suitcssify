@@ -1,10 +1,12 @@
 'use strict';
 
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import SuitCssify from '../index';
 import classNames from 'classnames';
+import createReactClass from 'create-react-class';
 
-let Button = React.createClass({
+let Button = createReactClass({
   mixins: [SuitCssify.mixin],
 
   propTypes: {
