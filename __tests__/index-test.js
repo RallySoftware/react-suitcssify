@@ -1,10 +1,12 @@
 'use strict';
 
 import React from 'react';
+import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import ReactDOMServer from 'react-dom/server';
-import ReactTestUtils from 'react-addons-test-utils';
+import ReactTestUtils from 'react-dom/test-utils';
 import SuitCssify from '../index';
+import createReactClass from 'create-react-class';
 
 const DECORATOR = 'decorator';
 const HIGHER_ORDER = 'higher order';
@@ -34,7 +36,7 @@ const ComponentFactory = {
       case HIGHER_ORDER:
         class InnerCmp extends React.Component {
           static propTypes = {
-            getClassName: React.PropTypes.func.isRequired
+            getClassName: PropTypes.func.isRequired
           };
 
           render() {
@@ -59,7 +61,7 @@ const ComponentFactory = {
         break;
 
       case MIXIN:
-        Component = React.createClass({
+        Component = createReactClass({
           mixins: [SuitCssify.mixin],
           render() {
             return (
@@ -73,7 +75,7 @@ const ComponentFactory = {
 
       case UTILITY:
         const getClassName = SuitCssify.getClassName;
-        Component = React.createClass({
+        Component = createReactClass({
           render() {
             return (
               <div className={ getClassName(options) }>

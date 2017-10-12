@@ -1,12 +1,14 @@
 'use strict';
 
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import SuitCssify from '../index';
 import classNames from 'classnames';
+import createReactClass from 'create-react-class';
 
 const getClassName = SuitCssify.getClassName;
 
-const Button = React.createClass({
+const Button = createReactClass({
   propTypes: {
     children: PropTypes.node,
     className: PropTypes.string,

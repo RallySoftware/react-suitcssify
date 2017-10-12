@@ -44,15 +44,17 @@
     "babelify": "7.3.0",
     "browserify": "13.0.1",
     "classnames": "^2.1.1",
+    "create-react-class": "^15.6.2",
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.5.1",
     "jest": "12.1.1",
-    "react": "^15.1.0",
-    "react-addons-test-utils": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-addons-test-utils": "^15.5.0",
+    "react-dom": "^16.0.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0-0"
+    "react": ">=0.14.0"
   },
   "jest": {
     "automock": false,
