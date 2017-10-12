@@ -1,6 +1,6 @@
 {
   "name": "react-suitcssify",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "A React component utility to generate CSS class names that conform to SUIT CSS naming conventions.",
   "main": "./dist/index.js",
   "scripts": {
