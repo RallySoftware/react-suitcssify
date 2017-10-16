@@ -237,6 +237,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+* 3.3.0 - Add support for React 16.
 * 3.2.0 - Add getBaseComponentName to API. Alias `utility` as `getClassName` -- utility will be removed in a future release as it would be a breaking change.
 * 3.1.0 - Add higher-order component option. Update React version and add to peerDependencies.  Other minor tweaks.
 * 3.0.2 - Update decorator to not use inheritance.  Update dev dependencies, including react 0.14.
