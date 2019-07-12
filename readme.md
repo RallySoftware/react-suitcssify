@@ -137,7 +137,7 @@ ReactDOM.render(<MyComponent/>, document.body);
 
 A more performant implementation of a component using the `getClassName` function directly is to instead call getBaseComponentName which pre-calculates the baseComponentName one time given the componentName and namespace instead of calculating it on every call. While being slightly more verbose than the other options, it will provide better performance than all the other approaches. Here's what that looks like:
 
-```
+```JavaScript
 const displayName = 'MyComponent';
 const namespace = 'my';
 const baseComponentName = SuitCssify.getBaseComponentName(displayName, namespace);
