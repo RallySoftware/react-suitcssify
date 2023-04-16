@@ -45,7 +45,7 @@
     "browserify": "13.0.1",
     "classnames": "^2.1.1",
     "create-react-class": "^15.6.2",
-    "eslint": "^1.6.0",
+    "eslint": "^8.38.0",
     "eslint-plugin-react": "^3.5.1",
     "jest": "12.1.1",
     "prop-types": "^15.6.0",
